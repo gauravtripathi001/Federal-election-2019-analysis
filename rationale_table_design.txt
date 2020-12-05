@@ -1,0 +1,9 @@
+1. Table 1 vote_share:
+(i) riding_number is the primary key because it uniquely identifies each row in the table. The type is INT on observing the values in JSON data. It is not supposed to be NULL.
+(ii)english_name and french_name are text because they are made up of characters and we do not know the length in advance.
+(iii) total_votes is INT because these values are integers as seen in JSON data.
+(iv) turnout and vote_shares are real numbers as it is obtained by dividing two integers.
+
+2. Table 2 candidates:
+(i) riding_number is the primary key because it uniquely identifies each row in the table. The type is INT on observing the values in JSON data. It is not supposed to be NULL.
+(ii) candidate names are text because they are made up of characters and we do not know the length in advance.
